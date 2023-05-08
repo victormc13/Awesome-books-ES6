@@ -5,6 +5,7 @@
   text-decoration: none;
   list-style: none;
 }
+
 body {
   background-color: #3a251c;
 }
@@ -70,7 +71,14 @@ main {
   color: #fff;
 }
 
-.content-section h1, .content-section h2 {
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
+
+.content-section h1,
+.content-section h2 {
   color: #d48151;
   font-size: 3rem;
 }
@@ -119,12 +127,6 @@ main .addbook-section {
   padding: 0.3rem 0.8rem;
   border: 2px solid black;
   align-self: flex-end;
-}
-
-h1 {
-  display: flex;
-  justify-content: center;
-  padding: 1rem 2rem;
 }
 
 ul {

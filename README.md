@@ -3,7 +3,7 @@
   <img src="/banner.jpg" alt="logo" />
   <br/>
 
-  <h1><b>Awesome-books</b></h1>
+  <h1><b>Awesome-books-ES6</b></h1>
 
 </div>
 
@@ -30,11 +30,11 @@
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Awesome-books] <a name="about-project"></a>
+# 📖 [Awesome-books-ES6] <a name="about-project"></a>
 
 <!-- > Describe your project in 1 or 2 sentences. -->
 
-**[Awesome-books]** is a project that makes a list of your favorite books.
+**[Awesome-books-ES6]** is a project that makes a list of your favorite books now restructuring using the best practices of ES6 syntax.
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -49,14 +49,13 @@
     <li>HTML</li>
     <li>CSS</li>
     <li>Javascript</li>
-    <li>Github pages</li>
   </ul>
 </details>
 
 <details>
   <summary>Server</summary>
   <ul>
-    <li>No server</li>
+    <li>Github pages</li>
   </ul>
 </details>
 
@@ -74,7 +73,7 @@
 <!-- > Describe between 1-3 key features of the application. -->
 
 - **[Use medium-fidelity warframe to build the project]**
-- **[Responsive design for multiple screens]**
+- **[Best practices of ES6 syntax]**
 - **[Use of javascript to change the content of the page]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -85,7 +84,7 @@
 
 <!-- > Add a link to your deployed project. -->
 
-- [Awesome Books!](https://victormc13.github.io/Awesome-books/)
+- [No live demo]()
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -120,7 +119,7 @@ Example commands:
 
 ```sh
   cd my-folder
-  git clone https://github.com/victormc13/Awesome-books.git
+  git clone https://github.com/victormc13/Awesome-books-ES6.git
 ```
 
 
@@ -191,19 +190,6 @@ Example:
 - Twitter: [@VctorMC20](https://twitter.com/VctorMC20)
 - LinkedIn: [Victor MC](https://www.linkedin.com/in/victormc13/)
 
-👤 **José Fernández-Caminero**
-
-- GitHub: [@fdezcaminero](https://github.com/fdezcaminero)
-- Twitter: [@fdezcaminero](https://twitter.com/fdezcaminero)
-- LinkedIn: [José Fernández-Caminero](https://www.linkedin.com/in/fdezcaminero/)
-
-👤 **Vishal Mishra**
-
-- GitHub  | [@Vishal30M](https://github.com/Vishal30M)
-- Twitter | [@Vismiss30](https://twitter.com/Vismiss30)
-- LinkdIn | [vishal-kumar-mishra](https://www.linkedin.com/in/vishal-kumar-mishra-0a5226232/)
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
@@ -224,7 +210,7 @@ Example:
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](https://github.com/victormc13/First-Capstone/issues).
+Feel free to check the [issues page](https://github.com/victormc13/Awesome-books-ES6/issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
