@@ -1,21 +1,8 @@
 import Book from './book.js';
 
-class Library {
+export default class Library {
   constructor() {
-    this.books = [
-      {
-        title: 'title1',
-        author: 'autor1',
-      },
-      {
-        title: 'title2',
-        author: 'autor2',
-      },
-      {
-        title: 'Dune',
-        author: 'Frank Herbert',
-      },
-    ];
+    this.books = [];
   }
 
   addBook = (bookTitle, bookAuthor, newTitle, newAuthor, loadBooks) => {
@@ -34,6 +21,4 @@ class Library {
 
     loadBooks();
   }
-}
-
-export default Library;
+};
