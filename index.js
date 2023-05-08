@@ -7,7 +7,7 @@ const updateTime = () => {
   const dateTime = document.getElementById('datetime');
   dateTime.textContent = formattedTime;
   //Update the time every second
-  setInterval(updateTime, 30000);
+  setInterval(updateTime, 5000);
 }
 updateTime();
 
@@ -15,7 +15,6 @@ const superLibrary = new Library();
 
 const newTitle = document.getElementById('new-title');
 const newAuthor = document.getElementById('new-author');
-const Date = document.getElementById('datetime');
 
 const loadHTML = (index) => {
   const superHTML = `

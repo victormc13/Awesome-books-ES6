@@ -13,6 +13,7 @@ header {
   padding: 2rem;
   margin: 1rem;
   border: 2px solid #535353;
+  border-radius: 8px;
   color: #fff;
   background-color: black;
 }
@@ -30,10 +31,6 @@ nav div {
 
 a {
   color: #fff;
-}
-
-a:active {
-  color: blue;
 }
 
 nav div a:nth-child(2) {
@@ -63,9 +60,44 @@ main {
   color: #acacac;
 }
 
-.content-section h1 {
+#section3 {
+  width: 700px;
+  font-size: 2rem;
+  color: #d48151;
+}
+
+#section3 p {
+  color: #fff;
+}
+
+.content-section h1, .content-section h2 {
   color: #d48151;
   font-size: 3rem;
+}
+
+.btn {
+  font-size: 1.5rem;
+  width: 150px;
+  padding: 1rem;
+  background-color: #acacac;
+  border-radius: 8px;
+}
+
+.booklist-container {
+  height: 40vh;
+  border-radius: 4px;
+  overflow-y: scroll;
+}
+
+.booklist-container::-webkit-scrollbar {
+  width: 10px;
+  background-color: black;
+  border-radius: 16px;
+}
+
+.booklist-container::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #fff;
 }
 
 main .addbook-section {
@@ -98,15 +130,17 @@ h1 {
 ul {
   border: 2px solid #535353;
   width: 90vw;
+  font-size: 1.5rem;
 }
 
 li:nth-child(even) {
-  color: #fff;
+  color: black;
   background-color: #d48151;
 }
 
 li:nth-child(odd) {
-  background-color: #777f8f;
+  color: #fff;
+  background-color: #42464e;
 }
 
 .book {
@@ -125,8 +159,12 @@ li:nth-child(odd) {
   gap: 1rem;
 }
 
-.user-input {
+.user-input input {
+  width: 900px;
+  height: 3rem;
+  padding: 1rem;
   margin: 20px 0;
+  border-radius: 8px;
 }
 
 .hidden {
@@ -139,6 +177,7 @@ footer {
   font-size: 2rem;
   font-weight: bold;
   border: 2px solid #535353;
+  border-radius: 8px;
   color: #fff;
   background-color: black;
 }
