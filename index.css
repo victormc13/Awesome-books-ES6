@@ -5,11 +5,16 @@
   text-decoration: none;
   list-style: none;
 }
+body {
+  background-color: #3a251c;
+}
 
 header {
   padding: 2rem;
   margin: 1rem;
-  border: 2px solid black;
+  border: 2px solid #535353;
+  color: #fff;
+  background-color: black;
 }
 
 nav {
@@ -24,7 +29,7 @@ nav div {
 }
 
 a {
-  color: black;
+  color: #fff;
 }
 
 a:active {
@@ -38,11 +43,12 @@ nav div a:nth-child(2) {
 }
 
 a[tabindex]:focus {
-  color: blue;
+  color: #d48151;
   outline: none;
 }
 
 main {
+  height: 60vh;
   padding: 0.5rem;
   display: flex;
   flex-direction: column;
@@ -52,8 +58,14 @@ main {
 .date {
   text-align: right;
   padding-right: 16px;
-  font-size: 0.8rem;
+  font-size: 2rem;
   font-weight: bold;
+  color: #acacac;
+}
+
+.content-section h1 {
+  color: #d48151;
+  font-size: 3rem;
 }
 
 main .addbook-section {
@@ -88,8 +100,13 @@ ul {
   width: 90vw;
 }
 
+li:nth-child(even) {
+  color: #fff;
+  background-color: #d48151;
+}
+
 li:nth-child(odd) {
-  background-color: #acacac;
+  background-color: #777f8f;
 }
 
 .book {
@@ -121,5 +138,7 @@ footer {
   margin: 1rem;
   font-size: 2rem;
   font-weight: bold;
-  border: 2px solid black;
+  border: 2px solid #535353;
+  color: #fff;
+  background-color: black;
 }

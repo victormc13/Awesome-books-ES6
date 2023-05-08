@@ -7,7 +7,7 @@ const updateTime = () => {
   const dateTime = document.getElementById('datetime');
   dateTime.textContent = formattedTime;
   //Update the time every second
-  setInterval(updateTime, 60000);
+  setInterval(updateTime, 30000);
 }
 updateTime();
 
