@@ -1,9 +1,21 @@
 import Library from "./modules/library.js";
+import { DateTime } from "./modules/luxon.js";
+
+const updateTime = () => {
+  const now = DateTime.local();
+  const formattedTime = now.toLocaleString(DateTime.DATETIME_MED);
+  const dateTime = document.getElementById('datetime');
+  dateTime.textContent = formattedTime;
+  //Update the time every second
+  setInterval(updateTime, 60000);
+}
+updateTime();
 
 const superLibrary = new Library();
 
 const newTitle = document.getElementById('new-title');
 const newAuthor = document.getElementById('new-author');
+const Date = document.getElementById('datetime');
 
 const loadHTML = (index) => {
   const superHTML = `
