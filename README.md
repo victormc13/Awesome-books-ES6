@@ -84,7 +84,7 @@
 
 <!-- > Add a link to your deployed project. -->
 
-- [No live demo]()
+- [Awesome-books-ES6](https://victormc13.github.io/Awesome-books-ES6/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
