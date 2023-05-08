@@ -1,7 +1,4 @@
-import {Library} from "./modules/library.js";
-
-const newTitle = document.getElementById('new-title'); // eslint-disable-line max-classes-per-file
-const newAuthor = document.getElementById('new-author');
+import Library from './library.js';
 
 const superLibrary = new Library();
 
@@ -21,7 +18,7 @@ const loadHTML = (index) => {
     .insertAdjacentHTML('beforeend', superHTML);
   document
     .getElementById(`remove-button${index}`)
-    .addEventListener('click', () => superLibrary.removeBook(index));
+    .addEventListener('click', () => superLibrary.removeBook(index, loadBooks));
 }
 
 const loadBooks = () => {
@@ -45,10 +42,10 @@ window.addEventListener('load', loadBooks);
 const addButton = document.getElementById('add-button');
 
 //Add an event listener for the Enter key or Add button
-addButton.addEventListener('click', () => superLibrary.addBook(newTitle.value, newAuthor.value));
+addButton.addEventListener('click', () => superLibrary.addBook(newTitle.value, newAuthor.value, newTitle, newAuthor, loadBooks));
 document.addEventListener('keypress', (e) => {
   if(e.key === "Enter") {
-    superLibrary.addBook(newTitle.value, newAuthor.value);
+    superLibrary.addBook(newTitle.value, newAuthor.value, newTitle, newAuthor, loadBooks);
   }
 })
 

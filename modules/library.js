@@ -1,6 +1,6 @@
-import Book from "./book.js";
+import Book from './book.js';
 
-export class Library {
+class Library {
   constructor() {
     this.books = [
       {
@@ -18,20 +18,22 @@ export class Library {
     ];
   }
 
-  addBook = (bookTitle, bookAuthor) => {
+  addBook = (bookTitle, bookAuthor, newTitle, newAuthor, loadBooks) => {
     if (bookTitle !== '' && bookAuthor !== '') {
       const newBook = new Book(bookTitle, bookAuthor);
       this.books.push(newBook);
 
       newTitle.value = '';
       newAuthor.value = '';
-      loadBooks(); // eslint-disable-line no-use-before-define
+      loadBooks();
     }
   }
 
-  removeBook = (index) => {
+  removeBook = (index, loadBooks) => {
     this.books.splice(index, 1);
 
-    loadBooks(); // eslint-disable-line no-use-before-define
+    loadBooks();
   }
 }
+
+export default Library;
