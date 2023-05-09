@@ -1,0 +1,185 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+}
+
+body {
+  background-color: #3a251c;
+}
+
+header {
+  padding: 2rem;
+  margin: 1rem;
+  border: 2px solid #535353;
+  border-radius: 8px;
+  color: #fff;
+  background-color: black;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  font-size: 1.5rem;
+}
+
+nav div {
+  display: flex;
+  gap: 1rem;
+}
+
+a {
+  color: #fff;
+}
+
+nav div a:nth-child(2) {
+  padding: 0 1rem;
+  border-right: 2px solid black;
+  border-left: 2px solid black;
+}
+
+a[tabindex]:focus {
+  color: #d48151;
+  outline: none;
+}
+
+main {
+  height: 60vh;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.date {
+  text-align: right;
+  padding-right: 16px;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #acacac;
+}
+
+#section3 {
+  width: 700px;
+  font-size: 2rem;
+  color: #d48151;
+}
+
+#section3 p {
+  color: #fff;
+}
+
+h1 {
+  display: flex;
+  justify-content: center;
+  padding: 1rem 2rem;
+}
+
+.content-section h1,
+.content-section h2 {
+  color: #d48151;
+  font-size: 3rem;
+}
+
+.btn {
+  font-size: 1.5rem;
+  width: 150px;
+  padding: 1rem;
+  background-color: #acacac;
+  border-radius: 8px;
+}
+
+.booklist-container {
+  height: 40vh;
+  border-radius: 4px;
+  overflow-y: scroll;
+}
+
+.booklist-container::-webkit-scrollbar {
+  width: 10px;
+  background-color: black;
+  border-radius: 16px;
+}
+
+.booklist-container::-webkit-scrollbar-thumb {
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+main .addbook-section {
+  width: 400px;
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.addbook-section input {
+  width: 400px;
+  height: 30px;
+  border: 2px solid black;
+}
+
+.addbook-section button {
+  padding: 0.3rem 0.8rem;
+  border: 2px solid black;
+  align-self: flex-end;
+}
+
+ul {
+  border: 2px solid #535353;
+  width: 90vw;
+  font-size: 1.5rem;
+}
+
+li:nth-child(even) {
+  color: black;
+  background-color: #d48151;
+}
+
+li:nth-child(odd) {
+  color: #fff;
+  background-color: #42464e;
+}
+
+.book {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+}
+
+.book button {
+  padding: 0.3rem 0.8rem;
+  border: 2px solid black;
+}
+
+.book-details {
+  display: flex;
+  gap: 1rem;
+}
+
+.user-input input {
+  width: 900px;
+  height: 3rem;
+  padding: 1rem;
+  margin: 20px 0;
+  border-radius: 8px;
+}
+
+.hidden {
+  display: none;
+}
+
+footer {
+  padding: 1rem;
+  margin: 1rem;
+  font-size: 2rem;
+  font-weight: bold;
+  border: 2px solid #535353;
+  border-radius: 8px;
+  color: #fff;
+  background-color: black;
+}
